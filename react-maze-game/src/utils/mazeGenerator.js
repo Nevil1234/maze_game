@@ -1,12 +1,5 @@
 // src/utils/mazeGenerator.js
 
-/**
- * Generates a random maze using the Recursive Backtracker algorithm.
- * @param {number} width - Must be an odd number.
- * @param {number} height - Must be an odd number.
- * @returns {number[][]} - 2D array representing the maze.
- *                          0 = Path, 1 = Wall, 2 = Start, 3 = Goal
- */
 export const generateMaze = (width, height) => {
     // Initialize maze with walls
     const maze = Array(height)
